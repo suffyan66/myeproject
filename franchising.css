@@ -1,0 +1,122 @@
+nav{
+    background-color: rgb(236, 234, 236);
+    height: 90px;
+}
+.navbar-brand{
+    color: rgb(38, 48, 38);
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+.nav-item a {
+color: rgb(53, 52, 52);
+font-weight: 500;
+font-size: 1.1rem;
+}
+
+.accordion p{
+    font-weight:400;
+}
+/* Main Franchising Section */
+.franchising-section {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.franchising-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family:'Playfair Display', serif ;
+     
+}
+
+.franchising-section h2 {
+    font-size: 2.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family:'Playfair Display', serif ;  
+}
+
+.franchising-section p {
+    font-size: 1.em;
+    margin-bottom: 20px;
+}
+
+.franchising-section ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.franchising-section ul li {
+    /* font-size: 1.1em; */
+    margin: 10px 0;
+    background-color: rgb(169, 206, 128);
+}
+
+/* Franchise Form */
+.franchise-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.franchise-form label {
+    margin-bottom: 8px;
+    font-size: 1.1em;
+}
+
+.franchise-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.franchise-form button {
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.franchise-form button:hover {
+    background-color: #45a049;
+}
+/* Footer */
+footer {
+    background-color:  rgb(236, 234, 236);
+    color:black;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px;
+}
+#mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:black;
+    margin-bottom: 30px;
+}
+.ancher a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+
+

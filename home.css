@@ -1,0 +1,309 @@
+nav{
+  background-color: rgb(236, 234, 236);
+  height: 90px;
+}
+.navbar-brand{
+  color: rgb(38, 48, 38);
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
+}
+.nav-item a {
+color: rgb(53, 52, 52);
+font-weight: 500;
+font-size: 1.1rem;
+}
+
+#logo {
+  cursor: pointer;
+  width: 150px;
+}
+
+
+.important {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border-radius: 8px;
+}
+
+.important:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family:'Playfair Display', serif; 
+}
+.card-text{
+    
+    font-size: 1.rem;
+}
+.content1 h1{
+    font-family:'Playfair Display', serif  ;
+}
+.content1 h3{ 
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family:'Playfair Display', serif ;
+}
+.content1  {
+    margin-top: 50px;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: black; 
+    font-size: 1rem;
+    font-family:'Playfair Display', serif ;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2;
+    padding: 20px;
+    border-radius: 10px;
+    height: 300px;
+    width: 500px;
+    margin-left: 30px;
+}
+.conetnt2 h1{
+    font-family:'Playfair Display', serif;
+}
+.conetnt2 h3{
+    font-family:'Playfair Display', serif ;  
+}
+
+.content2 {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color:black; 
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2;
+    padding: 20px;
+    border-radius: 10px;
+    height: 300px;
+    width: 500px;
+}
+.content3 h1{
+    font-family:'Playfair Display', serif ;
+}
+.content3 h3{
+    font-family:'Playfair Display', serif ;
+}
+.content3 {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2;
+    padding: 20px;
+    border-radius: 10px;
+    height: 300px;
+    width: 500px; 
+    margin-left: 30px;
+}
+
+/* Font style for the first slide */
+.font-style-1 .content {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+/* Font style for the second slide */
+.font-style-2 .content {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Font style for the third slide */
+.font-style-3 .content {
+    font-family: 'Georgia', serif;
+}
+
+
+.client_review {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f5f5f5;
+  }
+  
+  .section_title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  /* Review Card Styling */
+  .review-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 30px;
+  }
+  
+  .review-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .review-img {
+    width: 300px;
+    height: 100px;
+    border-radius: 50%;
+    max-width: 120px;
+    margin-bottom: 15px;
+  }
+  
+  .review-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .review-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  .row a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 767px) {
+    .review-card {
+      margin-bottom: 20px;
+    }
+  
+    .review-name {
+      font-size: 1.3rem;
+    }
+  
+    .review-text {
+      font-size: 0.95rem;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .review-card {
+      margin-bottom: 20px;
+    }
+  }
+  
+.first{
+  
+    text-align: center;
+}
+.first img{
+    height: 300px;
+    width: 300px;
+    border-radius:8px;
+
+}
+.first_p{
+    margin-top: 10px;
+    font-size:1rem ;
+   
+}
+.first_h{
+    font-size: 2rem;
+    font-family:'Playfair Display', serif;
+    margin-top: 20px;
+}
+.second img{
+    height: 300px;
+    width: 300px;
+    border-radius:8px;
+ 
+}
+
+.second{
+ 
+   text-align: center;
+}
+.third img{
+    height: 300px;
+    width: 300px;
+    border-radius:8px;
+}
+.third{
+    
+    text-align: center;
+}
+.acoord_heading{
+ 
+}
+.acoord_heading h1{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size:3.5rem;
+  font-family:'Playfair Display', serif;
+}
+.accordion p{
+  font-weight:400;
+}
+.acoord_heading h2 {
+  font-size: 2.5em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family:'Playfair Display', serif ;  
+}
+
+.container-fluid img{
+  height: 350px;
+
+}
+#logo{
+  height: 150px;
+
+}
+/* Footer */
+footer {
+  background-color:  rgb(236, 234, 236);
+  color:black;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 5px;
+}
+#mail{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color:black;
+  margin-bottom: 30px;
+}
+.ancher a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+}
+#tips {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  background-color: #f9f9f9;
+  font-weight: bold;
+  width: 50%;
+}
